@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Auto Writting Effect</title>
+  <link rel="shortcut icon" href="src/images/stackLogo.png" type="image/x-icon">
+  <link rel="stylesheet" href="src/css/style.css">
+</head>
+<body>
+
+  <nav class="nav">
+    <img src="src/images/stackLogo.png" alt="">
+    <div class="navItem">
+      <a href="#demo"> Demo <i class="fas fa-angle-down"></i> </a>
+      <a href="#docs"> How to use? <i class="fas fa-angle-down"></i> </a>
+    </div>
+    <div class="navGit">
+      <a target="_blank" href="https://github.com/stacksagar/autowrite" class="viewGit"><i class="fab fa-github"></i>
+        View
+        GitHub</a>
+    </div>
+  </nav>
+  <!-- End Navbar -->
+
+  <section id="demo" class="firstWrap">
+    <div class="secondWrap">
+      <div class="thirdWrap">
+        <div class="content">
+          <h2> <a id="intro" href="#docs"><i class="fas fa-edit"></i></a>
+            <b class="autoWriteBreak 100">Hi There, How Are You ?</b></h2>
+          <p> I'm Professionaly <i class="fas fa-angle-right"></i>
+            <a id="intro1" href="#docs"><i class="fas fa-edit"></i></a>
+            <b class="autoWrite 100 500">
+              MERN Stack Developer, Programmer, Designer
+            </b>
+          </p>
+          <p> Front End Skills <i class="fas fa-angle-right"></i>
+            <a id="intro2" href="#docs"><i class="fas fa-edit"></i></a>
+            <b class="autoWrite 200 800">
+              JavaScript ES6+, React.js (API), HTML5, CSS3, BootStrap5
+            </b>
+          </p>
+          <p> Programming Language <i class="fas fa-angle-right"></i>
+            <a id="intro3" href="#docs"><i class="fas fa-edit"></i></a>
+            <b class="autoWrite 250 1000">
+              Python, JavaScript, Swift
+            </b>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End First Demo -->
+
+  <!-- Start Second Demo -->
+  <section id="docs">
+    <a target="_blank" class="docsLink" href="dist/autoWrite.min.js">Download <i class="fas fa-download"></i> </a>
+    <a target="_blank" class="docsLink" href="https://github.com/stacksagar/autowrite" class="viewGit"> GItHub <i
+        class="fab fa-github"></i> </a>
+    <h1>How To Use <i class="fas fa-question"></i></h1>
+    <p>
+      <b> <i>Required!</i> Before connect js file</b>
+      <span class="userSelect">
+        &lt;script src="autoWrite.min.js"&gt;&lt;/script&gt;
+      </span>
+    </p>
+    <p class="intro">
+      &lt;b class="typingEffect 50"&gt; Hi There, How Are You ? &lt;/b&gt;
+      <a class="playZBreakWrite" href="#scnd">How To Use ?</a>
+    </p>
+    <p class="intro1">
+      &lt;b class="autoWrite 100 500"&gt; MERN Stack Developer, Programmer, Designer &lt;/b&gt;
+      <a href="#frst">How To Use ?</a>
+    </p>
+    <p class="intro2">
+      &lt;b class="autoWrite 200 800"&gt; JavaScript ES6+, React.js (API), HTML5, CSS3, BootStrap5 &lt;/b&gt;
+      <a href="#frst">How To Use ?</a>
+    </p>
+    <p class="intro3">
+      &lt;b class="autoWrite 250 1000"&gt;
+      Python, JavaScript, Swift
+      &lt;/b&gt;
+      <a href="#frst">How To Use ?</a>
+    </p>
+    <br><br>
+    <h1 id="frst">Guide <i class="fas fa-book"></i></h1>
+    <article class="explain">
+      Here explain with this HTML CODE <i class="fas fa-angle-down"></i> <br>
+      <b class="highLight">&lt;b class="autoWrite 150 1000"&gt; Python, JavaScript, Swift &lt;/b&gt; </b>
+      <br>
+      <i class="fas fa-arrow-down"></i>
+      <br>
+      Result: <i class="fas fa-angle-right"></i>
+      <b class="autoWrite 150 1000">Python, JavaScript, Swift</b>
+      <br><br>
+      If you want to use this autoTyping then you have to now, what is work of those three class
+      <b>[ autoWrite 450 1000 ]</b>
+      and what is this text
+      <b>[ Python, JavaScript, Swift ]</b>
+      <br>
+      <p class="expln">
+        <b> <i class="fas fa-angle-right"></i>
+          <i>Required!</i> [autoWrite]</b> this 1st class for importing &
+        exporting Effect
+      </p>
+      <p class="expln">
+        <b> <i class="fas fa-angle-right"></i>
+          <i>Required!</i> [450]</b> this 2nd class for typing and deleting character
+        Speed,
+        <br>
+        You can use any number ( 1000 MiliSecond = 1 Second )
+      </p>
+      <p class="expln">
+        <b> <i class="fas fa-angle-right"></i>
+          <i>Required!</i> [1000]</b> this 3rd class for wait how much time break when word auto writting end!
+        <br>
+        You can use any number ( 1000 MiliSecond = 1 Second )
+      </p>
+      <p class="expln">
+        <i class="fas fa-angle-right"></i>
+        <i>Required!</i> <b>[ Python, JavaScript, Swift ] </b>
+        This words for autoWritting text
+        <br> Example <i class="fas fa-arrow-down"></i> <br>
+        Result: <b class="autoWrite 150 100"> Python, JavaScript, Swift </b>
+        <br><br>
+        <b>!important</b>
+        Remember one thing that you must includes <b>"," coma</b> <br>
+        Example: &lt;b class="autoWrite 150 1000"&gt;
+        Python<b class="highLight">,</b> JavaScript<b class="highLight">,</b> Swift &lt;/b&gt;
+      </p>
+    </article>
+    <br>
+    <article id="scnd" class="explain">
+      Here explain with this HTML Code <i class="fas fa-angle-down"></i>
+      <br>
+      <b class="highLight">
+        &lt;b class="autoWriteBreak 100"&gt; WellCome To My Website! &lt;/b&gt; </b>
+      <br>
+      <i class="fas fa-arrow-down"></i>
+      <br>
+      Result: <i class="fas fa-angle-right"></i>
+      <b class="autoWriteBreak 100"> WellCome To My Website! </b>
+      <br><br>
+      <p class="expln">
+        <b> <i class="fas fa-angle-right"></i>
+          <i>Required!</i> [autoWriteBreak]</b> If you want to only 1 time write then stop, then you can use this class
+      </p>
+      <p class="expln">
+        <b> <i class="fas fa-angle-right"></i>
+          <i>Required!</i> [100]</b> this 2nd class for typing Speed,
+        <br>
+        You can use any number ( 1000 MiliSecond = 1 Second )
+      </p>
+    </article>
+  </section>
+  <!-- End Second Demo -->
+
+  <!-- round Styel Start -->
+  <section class="round">
+    <div class="round2">
+      <div class="round3">
+        <div class="round4">
+          <div class="round5">
+            <div class="round6">
+              <div class="round7"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- round Styel End -->
+
+  <script src="dist/autoWrite.min.js"></script>
+  <script src="src/js/all.min.js"></script>
+  <script src="src/js/custom.js"></script>
+</body>
+</html>
